@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="style1.css">
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>CREE UN COMPTE</h1>
+			<span>ou utilisez votre email pour vous inscrire</span>
+			<input type="text" placeholder="Nom" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Mot de passe" />
+			<button>CREE UN COMPTE</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="../accueil.html">
+			<h1>SE CONNECTER</h1>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Mot de passe" />
+			<a href="#">Mot de passe oublié ?</a>
+			<button>SE CONNECTER</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Content de vous revoir!</h1>
+				<p>Pour acceder au site, veuillez vous connecter avec vos informations personnelles</p>
+				<button class="ghost" id="signIn">SE CONNECTER</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Bonjour,</h1>
+				<p>Entrez vos données personnelles et commencez a rentrer sur le site</p>
+				<button class="ghost" id="signUp">CREE UN COMPTE</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="app.js"></script>
